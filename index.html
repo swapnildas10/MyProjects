@@ -1,0 +1,177 @@
+<DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/sweetalert.css">
+      <link rel="stylesheet" type="text/css" href="/resources/css/queries.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+      <title>My Resume</title>
+   </head>
+   <body>
+      <header>
+         <div class="opening-line">
+            <h1>Welcome to My Portfolio</h1>
+         </div>
+         <div class="arrow-down">
+            <a class="icon-link" href="#aboutme"><i class="ion-ios-arrow-down icon-big icon-toggle"></i></a>
+         </div>
+      </header>
+      <section class="section-aboutme js--section-features clearfix" id="aboutme">
+         <nav class="sticky">
+            <ul class="btn-link-nav js--main-nav clearfix">
+               <li><a class="btn-link" href="#aboutme">About Me</a></li>
+               <li><a class="btn-link" href="#education">My Education</a></li>
+               <li> <a class="btn-link" href="#skill">My Skills</a></li>
+               <li>  <a class="btn-link" href="#contact">Contact Me</a></li>
+               <li>  <a class="btn-link" href="#skill">My Resume</a></li>
+            </ul>
+            <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+         </nav>
+         <div class="row">
+            <h2>About Me</h2>
+         </div>
+         <div class="row skill-table">
+            <div class="row">
+               <p class="para-i js-para-i">  <span class="span-i">I am a</span></p>
+            </div>
+            <div class="row">
+               <p>
+                  <br>
+                  <span class="js--wp-1">Traveller.</span><span  class="js--wp-2">Developer.</span><span class="js--wp-4">Designer.</span>
+               </p>
+            </div>
+            <div class="col span-1-of-2 about-desc">
+            </div>
+         </div>
+      </section>
+      <section class="section-myeducation clearfix" id="education">
+         <div class="box row">
+            <h2> &nbsp;My Education </h2>
+         </div>
+         <div class="univ-sec js--wp-5">
+            <div class="video-bg">
+               <video class="video-1" loop="loop" preload="auto" autoplay="true" poster="vendors/vids/Aloha-Mundo.jpg" id="bgvid">
+                  <source src="/vendors/vids/Aloha-Mundo.mp4" type="video/webm">
+                  <source src="/vendors/vids/Aloha-Mundo.mp4" type="video/mp4">
+               </video>
+            </div>
+            <div class=" row col span-1-of-3 colg-img-1">
+               <h3><i class="ion-university icon-univ"></i>&nbsp;Graduate Degree</h3>
+               <p  class="colg-desc">
+                  <span>California State University, Long Beach</span>
+                  <br>Master’s in <br>Computer Science<br> Graduated at May 2017
+               </p>
+            </div>
+            <div class="col span-1-of-3 colg-img-2">
+               <h3> <i class="ion-university icon-univ"></i>&nbsp;Undergraduate Degree</h3>
+               <p class="colg-desc"><span>National Institute of Technology, Raipur</span>
+                  <br>Bachelor of Technology in<br> Computer Science<br> Graduated in June 2014
+               </p>
+            </div>
+         </div>
+      </section>
+      <section class="section-skills clearfix" id="skill">
+         <h2>My Skills</h2>
+         <div class="skill-desc clearfix">
+            <div class="row">
+               <div class="col span-1-of-4 skill-para">
+                  <i class="ion-code-working skill-icon"></i>
+                  <p class="js-skill-para">C, C++, C#, JAVA,JavaScript,CSS, HTML, Microsoft SQL, HTML scripting, PL/SQL. PowerShell, WMI Query Language</p>
+               </div>
+               <div class="col span-1-of-4 skill-para">
+                  <i class="ion-wrench skill-icon" ></i>
+                  <p class="js-skill-para">NetBeans IDE, Informatica Cloud Services, Informatica Power Center 9.5x, Autosys, TOAD, Putty, IBM Cognos, SSAS</p>
+               </div>
+               <div class="col span-1-of-4 skill-para">
+                  <i class="ion-ribbon-b skill-icon"></i>
+                  <p class="js-skill-para">Training in Core Java from BIOS, Training in Web application development&#45;Servlet and JSP from NIIT, Bhopal</p>
+               </div>
+               <div class="col span-1-of-4 skill-para">
+                  <i class="ion-android-desktop skill-icon"></i>
+                  <p class="js-skill-para">
+                     Operating Systems: UNIX, Windows Sever 2012, Windows 10, MacOS 10.x
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="row my-resume">
+            <p> Want to have a look at my resume?&nbsp;<a href="/resources/data/Swapnil_Resume_V2.0_SA.docx" class="btn-link btn-resume">My Resume</a></p>
+         </div>
+      </section>
+      <section class="section-contact clearfix" id="contact">
+         <div class="video-lib">
+            <video class="video-3" loop="loop" preload="auto" autoplay="true" poster="vendors/vids/PC-Typing.jpg" >
+               <source src="/vendors/vids/PC-Typing.webm" type="video/webm">
+               <source src="/vendors/vids/PC-Typing.mp4" type="video/mp4">
+            </video>
+         </div>
+         <div class="row">
+            <h2>Contact Me</h2>
+         </div>
+         <div class="row">
+            <form id="form-contact" name="form-contact" method="post"  class="contact-form">
+               <div class="row">
+                  <div class="col span-1-of-3">
+                     <label for="name" >Name</label>
+                  </div>
+                  <div class="col span-2-of-3">
+                     <input type="text" name="name" id="name" placeholder="Your Name" required onsubmit="validateName()">
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col span-1-of-3">
+                     <label>Email</label>
+                  </div>
+                  <div class="col span-2-of-3">
+                     <input type="email" name="email" id="email" placeholder="Your Email" required onsubmit="validateEmail()">
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col span-1-of-3">
+                     <label for="message">Drop me a message</label>
+                  </div>
+                  <div class="col span-2-of-3">
+                     <textarea name="message" id="message" placeholder="Your Message"></textarea>        
+                  </div>
+               </div>
+               <input type="submit" value="Send it!">
+            </form>
+         </div>
+      </section>
+      <footer>
+         <div class="row">
+            <div class="colspan-1-of-2">
+               <div class="row footer-nav">
+                  <p>Follow Me on </p>
+               </div>
+            </div>
+            <div class="colspan-1-of-2">
+               <ul class="row social-links">
+                  <li><a href="https://www.facebook.com/swap990" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                  <li><a href="#" target="_blank"><i class="ion-social-twitter" ></i></a></li>
+                  <li><a href="https://plus.google.com/u/1/104541414030652849679" target="_blank"><i class="ion-social-googleplus"></i></a></li>
+                  <li><a href="https://www.instagram.com/swapnildas10/?hl=en" target="_blank"><i class="ion-social-instagram"></i></a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="row">
+            <p>Copyright &copy; 2017 by Swapnil Das.</p>
+         </div>
+      </footer>
+   </body>
+   <script src="resources/js/queries.js"></script>
+   <script src="vendors/js/sweetalert.min.js"></script>
+   <script src="resources/js/validation.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+   <script src="resources/js/scripts.js"></script>
+   <script src="vendors/js/jquery.waypoints.min.js" ></script>        
+   <script src="vendors/js/in-view.min.js"></script>           
+</html>
+    
+    
+    
